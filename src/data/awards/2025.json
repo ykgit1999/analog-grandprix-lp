@@ -1,0 +1,230 @@
+{
+  "year": 2025,
+  "announcedDate": "2025-04-03",
+  "products": [
+    {
+      "id": "2025-gold-01",
+      "productName": "SL-1300G",
+      "manufacturer": "Technics",
+      "awardType": "gold",
+      "category": "turntable",
+      "categoryLabel": "ターンテーブル",
+      "description": "ツインロータ同軸ダイレクトドライブモーターとΔΣ-Drive技術を搭載した次世代フルオートプレーヤー",
+      "descriptionEn": "Next-generation fully automatic turntable featuring a twin-rotor coaxial direct-drive motor and ΔΣ-Drive technology",
+      "descriptionZh": "搭载双转子同轴直驱马达和ΔΣ-Drive技术的新一代全自动唱机",
+      "price": "¥550,000"
+    },
+    {
+      "id": "2025-gold-02",
+      "productName": "TD1600 / TD1601",
+      "manufacturer": "Thorens",
+      "awardType": "gold",
+      "category": "turntable",
+      "categoryLabel": "ターンテーブル",
+      "description": "名機TD160の系譜を受け継ぐベルトドライブ・ターンテーブル",
+      "descriptionEn": "Belt-drive turntable carrying on the legacy of the legendary TD160",
+      "descriptionZh": "继承名机TD160血统的皮带驱动唱盘",
+      "price": "¥308,000 / ¥385,000"
+    },
+    {
+      "id": "2025-gold-03",
+      "productName": "DS-E3",
+      "manufacturer": "DS Audio",
+      "awardType": "gold",
+      "category": "cartridge",
+      "categoryLabel": "光カートリッジ",
+      "description": "専用トーンアーム付属の光カートリッジシステム。革新的な光学式読み取り方式",
+      "descriptionEn": "Optical cartridge system with dedicated tonearm. An innovative optical signal-reading method",
+      "descriptionZh": "附带专用唱臂的光学唱头系统，采用革新性的光学式信号读取方式",
+      "price": "¥1,320,000"
+    },
+    {
+      "id": "2025-gold-04",
+      "productName": "SPU GTX S/E",
+      "manufacturer": "Ortofon",
+      "awardType": "gold",
+      "category": "cartridge",
+      "categoryLabel": "MCカートリッジ",
+      "description": "SPUシリーズの最高峰モデル。楕円針搭載のMCカートリッジ",
+      "descriptionEn": "The flagship of the SPU series. MC cartridge with elliptical stylus",
+      "descriptionZh": "SPU系列的旗舰型号，搭载椭圆针的MC唱头"
+    },
+    {
+      "id": "2025-gold-05",
+      "productName": "AT-ART1000X",
+      "manufacturer": "Audio-Technica",
+      "awardType": "gold",
+      "category": "cartridge",
+      "categoryLabel": "MCカートリッジ",
+      "description": "ダイレクトパワー方式MCカートリッジの進化形。究極の情報量と空間表現",
+      "descriptionEn": "The evolution of direct-power MC cartridges. Ultimate detail retrieval and spatial presentation",
+      "descriptionZh": "直接驱动式MC唱头的进化形态，呈现极致的信息量与空间表现"
+    },
+    {
+      "id": "2025-gold-06",
+      "productName": "Signature Diamond",
+      "manufacturer": "MY SONIC",
+      "awardType": "gold",
+      "category": "cartridge",
+      "categoryLabel": "MCカートリッジ",
+      "description": "ダイヤモンドカンチレバー搭載のハイエンドMCカートリッジ",
+      "descriptionEn": "High-end MC cartridge with diamond cantilever",
+      "descriptionZh": "搭载钻石悬臂的高端MC唱头"
+    },
+    {
+      "id": "2025-gold-07",
+      "productName": "E-07",
+      "manufacturer": "Luxman",
+      "awardType": "gold",
+      "category": "phono-stage",
+      "categoryLabel": "フォノイコライザー",
+      "description": "フルバランス構成のフォノイコライザーアンプ。MC/MM両対応",
+      "descriptionEn": "Fully balanced phono equalizer amplifier. Compatible with both MC and MM cartridges",
+      "descriptionZh": "全平衡架构唱头放大器，兼容MC/MM唱头"
+    },
+    {
+      "id": "2025-gold-08",
+      "productName": "Grandioso E1",
+      "manufacturer": "Esoteric",
+      "awardType": "gold",
+      "category": "phono-stage",
+      "categoryLabel": "フォノイコライザー",
+      "description": "セパレート筐体の超弩級フォノイコライザー。光カートリッジにも対応",
+      "descriptionEn": "Flagship-grade phono equalizer in a separate chassis design. Also supports optical cartridges",
+      "descriptionZh": "独立箱体的超旗舰级唱头放大器，亦支持光学唱头"
+    },
+    {
+      "id": "2025-gold-09",
+      "productName": "EVOLUTION MUSASHI",
+      "manufacturer": "Triode",
+      "awardType": "gold",
+      "category": "tube-amp",
+      "categoryLabel": "管球式プリメインアンプ",
+      "description": "KT150真空管搭載の大出力管球式プリメインアンプ",
+      "descriptionEn": "High-power tube integrated amplifier equipped with KT150 vacuum tubes",
+      "descriptionZh": "搭载KT150电子管的大功率电子管合并式放大器"
+    },
+    {
+      "id": "2025-gold-10",
+      "productName": "SA-1500",
+      "manufacturer": "Phasemation",
+      "awardType": "gold",
+      "category": "tube-amp",
+      "categoryLabel": "管球式プリメインアンプ",
+      "description": "300B真空管シングル構成のプリメインアンプ。洗練された音楽性",
+      "descriptionEn": "Single-ended 300B tube integrated amplifier. Refined musicality",
+      "descriptionZh": "300B电子管单端合并式放大器，音乐性洗练优雅"
+    },
+    {
+      "id": "2025-bcp-01",
+      "productName": "AT-LP8X",
+      "manufacturer": "Audio-Technica",
+      "awardType": "best-cp",
+      "category": "turntable",
+      "categoryLabel": "ターンテーブル",
+      "description": "ダイレクトドライブ方式のコストパフォーマンスに優れたターンテーブル",
+      "descriptionEn": "Direct-drive turntable offering exceptional value for money",
+      "descriptionZh": "性价比出众的直驱式唱盘",
+      "price": "¥99,000"
+    },
+    {
+      "id": "2025-bcp-02",
+      "productName": "MG-36BPH",
+      "manufacturer": "CHUDEN",
+      "awardType": "best-cp",
+      "category": "cartridge",
+      "categoryLabel": "MMカートリッジ",
+      "description": "高品位な再生を実現するコストパフォーマンス抜群のMMカートリッジ",
+      "descriptionEn": "MM cartridge delivering high-quality playback at outstanding value",
+      "descriptionZh": "以出色的性价比实现高品质播放的MM唱头"
+    },
+    {
+      "id": "2025-bcp-03",
+      "productName": "TRS-34",
+      "manufacturer": "Triode",
+      "awardType": "best-cp",
+      "category": "tube-amp",
+      "categoryLabel": "管球式プリメインアンプ",
+      "description": "EL34真空管搭載のエントリークラス管球式アンプ。豊かな音楽表現",
+      "descriptionEn": "Entry-class tube amplifier with EL34 vacuum tubes. Rich musical expression",
+      "descriptionZh": "搭载EL34电子管的入门级电子管放大器，音乐表现力丰富"
+    },
+    {
+      "id": "2025-gp-01",
+      "productName": "DP-3000NE",
+      "manufacturer": "Denon",
+      "awardType": "grandprix",
+      "category": "turntable",
+      "categoryLabel": "ターンテーブル",
+      "description": "伝説のDP-3000の系譜を継ぐダイレクトドライブターンテーブル",
+      "descriptionEn": "Direct-drive turntable carrying on the lineage of the legendary DP-3000",
+      "descriptionZh": "继承传奇DP-3000血统的直驱唱盘"
+    },
+    {
+      "id": "2025-gp-02",
+      "productName": "Ovation MC",
+      "manufacturer": "Ortofon",
+      "awardType": "grandprix",
+      "category": "cartridge",
+      "categoryLabel": "MCカートリッジ",
+      "description": "新世代のMCカートリッジ。高い解像度と豊かな音楽性を両立",
+      "descriptionEn": "Next-generation MC cartridge. Achieving both high resolution and rich musicality",
+      "descriptionZh": "新一代MC唱头，兼具高解析力与丰富的音乐性"
+    },
+    {
+      "id": "2025-gp-03",
+      "productName": "C-10",
+      "manufacturer": "Luxman",
+      "awardType": "grandprix",
+      "category": "phono-stage",
+      "categoryLabel": "フォノイコライザー",
+      "description": "クラフトマンシップ溢れるフォノイコライザー",
+      "descriptionEn": "A phono equalizer brimming with craftsmanship",
+      "descriptionZh": "匠心独运的唱头放大器"
+    },
+    {
+      "id": "2025-gp-04",
+      "productName": "TRV-A300XR",
+      "manufacturer": "Triode",
+      "awardType": "grandprix",
+      "category": "tube-amp",
+      "categoryLabel": "管球式プリメインアンプ",
+      "description": "300B真空管を採用した高品位プリメインアンプ",
+      "descriptionEn": "High-quality integrated amplifier featuring 300B vacuum tubes",
+      "descriptionZh": "采用300B电子管的高品质合并式放大器"
+    },
+    {
+      "id": "2025-sd-01",
+      "productName": "IO-M",
+      "manufacturer": "DS Audio",
+      "awardType": "special-development",
+      "category": "cartridge",
+      "categoryLabel": "光カートリッジ",
+      "description": "光カートリッジ技術の革新的発展。独自の光学式読み取りの新たな到達点",
+      "descriptionEn": "A groundbreaking advance in optical cartridge technology. A new pinnacle in proprietary optical signal reading",
+      "descriptionZh": "光学唱头技术的革新性发展，独创光学式读取的全新高峰"
+    },
+    {
+      "id": "2025-acc-01",
+      "productName": "AT-HS20",
+      "manufacturer": "Audio-Technica",
+      "awardType": "accessory",
+      "category": "accessory",
+      "categoryLabel": "ヘッドシェル",
+      "description": "高精度アルミニウム削り出しヘッドシェル",
+      "descriptionEn": "Precision-machined aluminum headshell",
+      "descriptionZh": "高精度铝合金切削唱头架"
+    },
+    {
+      "id": "2025-acc-02",
+      "productName": "STS-1",
+      "manufacturer": "Acoustic Revive",
+      "awardType": "accessory",
+      "category": "accessory",
+      "categoryLabel": "ターンテーブルスタビライザー",
+      "description": "天然水晶を使用したレコードスタビライザー",
+      "descriptionEn": "Record stabilizer crafted from natural quartz crystal",
+      "descriptionZh": "采用天然水晶制作的唱片镇"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "turntable",
+    "nameJa": "ターンテーブル",
+    "nameEn": "Turntable",
+    "nameZh": "唱盘",
+    "description": "レコードプレーヤー、ダイレクトドライブ、ベルトドライブなど",
+    "descriptionEn": "Record players, direct drive, belt drive, and more",
+    "descriptionZh": "唱机、直驱式、皮带驱动式等"
+  },
+  {
+    "id": "cartridge",
+    "nameJa": "カートリッジ",
+    "nameEn": "Cartridge",
+    "nameZh": "唱头",
+    "description": "MC型、MM型、光カートリッジなど",
+    "descriptionEn": "MC, MM, optical cartridges, and more",
+    "descriptionZh": "MC型、MM型、光学唱头等"
+  },
+  {
+    "id": "tonearm",
+    "nameJa": "トーンアーム",
+    "nameEn": "Tonearm",
+    "nameZh": "唱臂",
+    "description": "スタティックバランス型、ダイナミックバランス型など",
+    "descriptionEn": "Static balance, dynamic balance, and more",
+    "descriptionZh": "静态平衡式、动态平衡式等"
+  },
+  {
+    "id": "phono-stage",
+    "nameJa": "フォノイコライザー",
+    "nameEn": "Phono Stage",
+    "nameZh": "唱放",
+    "description": "フォノプリアンプ、フォノEQ、ヘッドアンプなど",
+    "descriptionEn": "Phono preamplifiers, phono EQ, head amplifiers, and more",
+    "descriptionZh": "唱头放大器、唱头均衡器、MC升压器等"
+  },
+  {
+    "id": "tube-amp",
+    "nameJa": "管球アンプ",
+    "nameEn": "Tube Amplifier",
+    "nameZh": "电子管放大器",
+    "description": "真空管プリメインアンプ、パワーアンプ、プリアンプなど",
+    "descriptionEn": "Tube integrated amplifiers, power amplifiers, preamplifiers, and more",
+    "descriptionZh": "电子管合并式放大器、功率放大器、前级放大器等"
+  },
+  {
+    "id": "accessory",
+    "nameJa": "アクセサリー",
+    "nameEn": "Accessory",
+    "nameZh": "配件",
+    "description": "ヘッドシェル、スタビライザー、マット、クリーニング用品など",
+    "descriptionEn": "Headshells, stabilizers, mats, cleaning supplies, and more",
+    "descriptionZh": "唱头架、唱片镇、唱片垫、清洁用品等"
+  }
+]

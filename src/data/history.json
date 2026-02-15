@@ -1,0 +1,47 @@
+[
+  {
+    "year": 2008,
+    "title": "アナロググランプリ創設",
+    "titleEn": "Analog Grand Prix Established",
+    "titleZh": "模拟大奖赛创立",
+    "description": "音元出版が季刊誌「analog」と連動し、アナログオーディオ機器を対象とした賞を創設。第1回を開催。",
+    "descriptionEn": "Ongen Publishing launched the award in conjunction with the quarterly magazine \"analog,\" dedicated to analog audio equipment. The inaugural ceremony was held.",
+    "descriptionZh": "音元出版社联合季刊《analog》杂志，创立了面向模拟音频设备的奖项，并举办了首届颁奖典礼。"
+  },
+  {
+    "year": 2010,
+    "title": "管球アンプ部門を本格化",
+    "titleEn": "Tube Amplifier Category Expanded",
+    "titleZh": "电子管放大器部门正式确立",
+    "description": "真空管アンプの復権を受け、管球アンプ部門の選考を本格化。プリメインアンプを中心に評価。",
+    "descriptionEn": "Amid a resurgence of tube amplifiers, the tube amplifier category was formally expanded with a focus on integrated amplifiers.",
+    "descriptionZh": "随着电子管放大器的复兴，正式扩大了电子管放大器部门的评选范围，以合并式放大器为评价重点。"
+  },
+  {
+    "year": 2015,
+    "title": "光カートリッジの登場",
+    "titleEn": "Arrival of Optical Cartridges",
+    "titleZh": "光学唱头登场",
+    "description": "DS Audio の光カートリッジが注目を集め、従来のMC/MM方式に加えた新たなカテゴリーとして認知が広がる。",
+    "descriptionEn": "DS Audio's optical cartridge attracted significant attention, gaining recognition as a new category alongside traditional MC/MM designs.",
+    "descriptionZh": "DS Audio的光学唱头备受瞩目，作为传统MC/MM方式之外的新类别获得广泛认可。"
+  },
+  {
+    "year": 2020,
+    "title": "アナログブームの加速",
+    "titleEn": "Accelerating Analog Revival",
+    "titleZh": "模拟热潮加速",
+    "description": "レコード市場の世界的な復活を受け、エントリーからハイエンドまで製品層が厚みを増す。",
+    "descriptionEn": "Following the global vinyl market revival, the product landscape expanded from entry-level to high-end offerings.",
+    "descriptionZh": "随着全球黑胶唱片市场的复苏，从入门级到高端的产品层次日益丰富。"
+  },
+  {
+    "year": 2025,
+    "title": "アクセサリー賞を新設",
+    "titleEn": "New Accessory Award Introduced",
+    "titleZh": "新设配件奖",
+    "description": "第17回を迎え、ヘッドシェル、スタビライザー、マットなどアナログアクセサリー部門を新設。",
+    "descriptionEn": "In its 17th year, a new analog accessories category was introduced covering headshells, stabilizers, mats, and more.",
+    "descriptionZh": "迎来第17届，新设了涵盖唱头架、唱片镇、唱片垫等模拟配件部门。"
+  }
+]

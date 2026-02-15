@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tsunoda",
+    "name": "角田郁雄",
+    "nameEn": "Ikuo Tsunoda",
+    "role": "chair",
+    "bio": "オーディオ評論家。アナログ再生の第一人者として知られ、長年にわたりレコード再生の魅力を伝え続けている。繊細な音の違いを聴き分ける耳と深い知識で選考委員長を務める。",
+    "bioEn": "Audio critic and leading authority on analog playback. Renowned for his discerning ear and deep expertise, he has long championed the art of vinyl reproduction and chairs the selection committee.",
+    "bioZh": "音频评论家，模拟播放领域的权威。以敏锐的听觉和深厚的专业知识著称，长期致力于传播黑胶唱片播放的魅力，担任评选委员会主席。",
+    "imageUrl": "/images/judges/tsunoda.jpg"
+  },
+  {
+    "id": "ishihara",
+    "name": "石原俊",
+    "nameEn": "Shun Ishihara",
+    "role": "member",
+    "bio": "オーディオ評論家。真空管アンプやアナログ機器に精通し、音楽性と技術的完成度の両面から製品を評価する。温かみのある音の本質を追求する姿勢に定評がある。",
+    "bioEn": "Audio critic specializing in tube amplifiers and analog equipment. Evaluates products for both musicality and technical excellence, with a well-regarded dedication to capturing the essence of warm, natural sound.",
+    "bioZh": "音频评论家，精通真空管放大器和模拟设备。从音乐性和技术完善度两个维度评价产品，以追求温暖自然声音本质的态度而备受好评。",
+    "imageUrl": "/images/judges/ishihara.jpg"
+  },
+  {
+    "id": "inoue",
+    "name": "井上千岳",
+    "nameEn": "Chitake Inoue",
+    "role": "member",
+    "bio": "オーディオ評論家。幅広いジャンルの音楽を聴き込み、再生装置の本質的な音楽表現力を見極める。技術的な分析と感性的な評価を両立させた執筆で知られる。",
+    "bioEn": "Audio critic with broad musical knowledge spanning diverse genres. Known for assessing the fundamental musical expressiveness of playback equipment and balancing technical analysis with intuitive evaluation.",
+    "bioZh": "音频评论家，广泛聆听各种音乐流派，善于辨别播放设备的本质音乐表现力。以兼具技术分析与感性评价的写作风格而闻名。",
+    "imageUrl": "/images/judges/inoue.jpg"
+  },
+  {
+    "id": "obara",
+    "name": "小原由夫",
+    "nameEn": "Yoshio Obara",
+    "role": "member",
+    "bio": "オーディオ評論家。アナログレコードの魅力を現代のオーディオファイルに伝えるスペシャリスト。ターンテーブルやカートリッジの比較試聴に定評がある。",
+    "bioEn": "Audio critic and specialist in bridging the appeal of analog records to modern audiophiles. Highly regarded for his comparative listening evaluations of turntables and cartridges.",
+    "bioZh": "音频评论家，专注于向现代发烧友传递模拟唱片魅力的专家。在唱盘和唱头的对比试听方面享有盛誉。",
+    "imageUrl": "/images/judges/obara.jpg"
+  },
+  {
+    "id": "fujioka",
+    "name": "藤岡誠",
+    "nameEn": "Makoto Fujioka",
+    "role": "member",
+    "bio": "オーディオ評論家。長年にわたりオーディオ機器の評価を手がけ、特にアンプリファイアーの音質評価において豊富な経験を持つ。公正で的確な評価に信頼が厚い。",
+    "bioEn": "Audio critic with decades of experience evaluating audio equipment, particularly amplifier sound quality. Widely trusted for his fair and precise assessments.",
+    "bioZh": "音频评论家，长年从事音频设备评价工作，尤其在放大器音质评估方面拥有丰富经验。以公正准确的评价赢得广泛信赖。",
+    "imageUrl": "/images/judges/fujioka.jpg"
+  }
+]
