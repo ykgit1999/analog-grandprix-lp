@@ -1,0 +1,21 @@
+{
+  "name": "オーディオランド",
+  "nameEn": "Audio Land",
+  "tagline": "音楽の感動を、もっと深く。",
+  "taglineEn": "Experience music, more deeply.",
+  "description": "オーディオランドは、アナログオーディオの魅力を伝え続ける専門店です。ターンテーブル、カートリッジ、管球アンプなど、厳選された銘機を取り揃え、お客様一人ひとりに最適なオーディオ体験をご提案いたします。",
+  "established": 1985,
+  "concept": "私たちは「音楽を聴くことの本質」を大切にしています。デジタル全盛の時代だからこそ、アナログの温かみ、レコードの質感、真空管の響きが持つ本来の音楽の美しさを、お客様にお届けしたい。それがオーディオランドの使命です。",
+  "phone": "03-1234-5678",
+  "email": "info@audioland.co.jp",
+  "address": "東京都千代田区神田小川町2-1 オーディオビル1F・2F",
+  "hours": {
+    "weekday": "11:00〜20:00",
+    "weekend": "10:00〜19:00",
+    "closed": "火曜定休"
+  },
+  "socialMedia": {
+    "twitter": "https://twitter.com/audioland_jp",
+    "instagram": "https://instagram.com/audioland_jp"
+  }
+}
