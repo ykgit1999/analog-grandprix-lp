@@ -1,21 +1,18 @@
 {
   "name": "オーディオランド",
   "nameEn": "Audio Land",
-  "tagline": "音楽の感動を、もっと深く。",
-  "taglineEn": "Experience music, more deeply.",
-  "description": "オーディオランドは、アナログオーディオの魅力を伝え続ける専門店です。ターンテーブル、カートリッジ、管球アンプなど、厳選された銘機を取り揃え、お客様一人ひとりに最適なオーディオ体験をご提案いたします。",
-  "established": 1985,
-  "concept": "私たちは「音楽を聴くことの本質」を大切にしています。デジタル全盛の時代だからこそ、アナログの温かみ、レコードの質感、真空管の響きが持つ本来の音楽の美しさを、お客様にお届けしたい。それがオーディオランドの使命です。",
-  "phone": "03-1234-5678",
-  "email": "info@audioland.co.jp",
-  "address": "東京都千代田区神田小川町2-1 オーディオビル1F・2F",
-  "hours": {
-    "weekday": "11:00〜20:00",
-    "weekend": "10:00〜19:00",
-    "closed": "火曜定休"
-  },
+  "tagline": "オーディオ買取専門店",
+  "catchcopy": "まじめに高額買取を続けてきた",
+  "mainCopy": "信頼×実績",
+  "subCopy": "ハイエンド・ヴィンテージオーディオの高額査定に自信あり",
+  "description": "買取件数35万点以上の実績と信頼。ハイエンドからヴィンテージまで、オーディオ機器の高額買取に自信があります。お客様満足度98.0%以上を持続中。まずはお気軽にご相談ください。",
+  "phone": "0120-976-355",
+  "hours": "8:00〜22:00（年中無休）",
+  "url": "https://audio-land.com/",
+  "satisfaction": "98.0",
+  "totalPurchases": "350,000",
   "socialMedia": {
-    "twitter": "https://twitter.com/audioland_jp",
-    "instagram": "https://instagram.com/audioland_jp"
+    "facebook": "https://www.facebook.com/audiolandcom/",
+    "line": "https://line.me/R/ti/p/@audioland"
   }
 }

@@ -1,0 +1,382 @@
+/* Audio Land LP — Brand Colors & Layout */
+
+.al-page {
+  --al-green: #3A5F2C;
+  --al-green-light: #4A7A38;
+  --al-green-dark: #2D4A20;
+  --al-red: #8B1A1A;
+  --al-red-light: #A52828;
+  --al-gold: #C9A84C;
+  --al-gold-light: #E8D48B;
+  --al-white: #FFFFFF;
+  --al-offwhite: #F5F5F0;
+  --al-text: #333333;
+  --al-text-sub: #666666;
+  --al-border: #E0E0E0;
+
+  background: var(--al-white);
+  color: var(--al-text);
+  font-family: var(--font-noto-sans-jp), "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+/* ─── Hero ─── */
+.al-hero {
+  position: relative;
+  max-height: 400px;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, var(--al-green-dark) 0%, var(--al-green) 40%, var(--al-green-light) 100%);
+  overflow: hidden;
+  padding: 40px 20px;
+}
+
+.al-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 30%, rgba(255,255,255,0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.al-hero-logo {
+  display: inline-block;
+  border: 1px solid rgba(255,255,255,0.6);
+  padding: 8px 20px 6px;
+  margin-bottom: 24px;
+}
+
+.al-hero-logo-ruby {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2px;
+}
+
+.al-hero-logo-name {
+  font-family: "Georgia", "Times New Roman", var(--font-noto-serif-jp), serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+.al-hero-logo-sub {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: rgba(255,255,255,0.7);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.al-hero-catchcopy {
+  font-size: 14px;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.al-hero-divider {
+  width: 60px;
+  height: 1px;
+  background: var(--al-gold);
+  margin: 0 auto 16px;
+}
+
+.al-hero-main {
+  font-family: var(--font-noto-serif-jp), "Georgia", serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.15em;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.al-hero-subcopy {
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.08em;
+}
+
+.al-hero-highlight {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--al-gold-light);
+  margin-top: 4px;
+}
+
+/* ─── Intro ─── */
+.al-intro {
+  padding: 48px 20px;
+  text-align: center;
+  background: var(--al-white);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.al-intro p {
+  font-size: 15px;
+  line-height: 2;
+  color: var(--al-text);
+}
+
+.al-intro-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.al-intro-stat {
+  text-align: center;
+}
+
+.al-intro-stat-value {
+  display: block;
+  font-family: var(--font-noto-serif-jp), serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--al-green);
+}
+
+.al-intro-stat-label {
+  font-size: 12px;
+  color: var(--al-text-sub);
+  margin-top: 4px;
+}
+
+/* ─── Content Layout ─── */
+.al-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .al-content {
+    grid-template-columns: 1fr 320px;
+  }
+}
+
+/* ─── Section Heading ─── */
+.al-section-heading {
+  font-family: var(--font-noto-serif-jp), serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--al-text);
+  padding-left: 16px;
+  border-left: 4px solid var(--al-green);
+  margin-bottom: 24px;
+}
+
+/* ─── Article List ─── */
+.al-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.al-article-item {
+  display: flex;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--al-border);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s;
+}
+
+.al-article-item:first-child {
+  padding-top: 0;
+}
+
+.al-article-item:hover {
+  background: var(--al-offwhite);
+}
+
+.al-article-thumb {
+  flex-shrink: 0;
+  width: 100px;
+  height: 72px;
+  background: linear-gradient(135deg, var(--al-green) 0%, var(--al-green-light) 100%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.al-article-thumb-text {
+  color: rgba(255,255,255,0.4);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.al-article-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.al-article-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.al-article-date {
+  font-size: 12px;
+  color: var(--al-text-sub);
+}
+
+.al-article-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--al-green);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.al-article-badge--series {
+  background: var(--al-gold);
+  color: var(--al-text);
+}
+
+.al-article-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--al-text);
+}
+
+.al-article-item:hover .al-article-title {
+  color: var(--al-green);
+}
+
+/* ─── Sidebar ─── */
+.al-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.al-sidebar-section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--al-text);
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--al-green);
+  margin-bottom: 16px;
+}
+
+.al-fb-embed {
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--al-border);
+  border-radius: 8px;
+  background: var(--al-offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--al-text-sub);
+  font-size: 13px;
+}
+
+.al-line-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: #06C755;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.al-line-btn:hover {
+  opacity: 0.9;
+}
+
+.al-yt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.al-yt-item {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #1a1a1a;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.al-yt-play {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.al-yt-play::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #fff;
+  margin-left: 3px;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 767px) {
+  .al-hero-main {
+    font-size: 32px;
+  }
+
+  .al-hero-logo-name {
+    font-size: 22px;
+  }
+
+  .al-hero {
+    min-height: 280px;
+    padding: 32px 16px;
+  }
+
+  .al-article-thumb {
+    width: 80px;
+    height: 58px;
+  }
+}
