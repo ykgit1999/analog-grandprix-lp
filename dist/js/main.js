@@ -27,6 +27,15 @@ function initScrollReveal() {
   }, { rootMargin: '-80px 0px', threshold: 0.1 });
 
   elements.forEach(function (el) { observer.observe(el); });
+
+  // Fallback: force-reveal any remaining hidden elements after 3s
+  setTimeout(function () {
+    elements.forEach(function (el) {
+      if (!el.classList.contains('revealed')) {
+        el.classList.add('revealed');
+      }
+    });
+  }, 3000);
 }
 
 /* --- Navigation: scroll state + active section --- */
