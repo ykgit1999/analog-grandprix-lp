@@ -73,23 +73,42 @@ dist/
 ## 画像処理の注意点
 - **賞ロゴのフリンジ問題**: 元PNGは白背景でフラット化されたアンチエイリアスが焼き付いている。透過処理では除去不可。サイト背景色（#0A0E1A）で合成して不透明PNGにすることで解決済み。背景色を変更する場合は再合成が必要
 - **PHILE WEBロゴ**: 高解像度PNG（1540x324px）をCSSで36px高に表示（Retina対応）。リサイズするとぼやける
-- **審査委員写真**: 小原氏は元画像のフレーミングが他と異なるためPythonでクロップ済み
-- **製品画像**: sipsで thumbs(400px) / full(1200px) にリサイズ。`object-fit: cover`で白帯防止
+- **審査委員写真**: 小原氏は元画像のフレーミングが他と異なるためPythonでクロップ済み。角田氏は元画像400x600を400x450にトリミング（下を切って顔アップに）。オリジナルは`tsunoda_original.jpg`に保存
+- **製品画像**: sipsで thumbs(400px) / full(1200px) にリサイズ。基本は`object-fit: cover`。小型製品（カートリッジ等）は`.contain`クラスで`object-fit: contain` + ダーク背景（#161b2e）にして製品全体を表示
 
 ## テスト環境
 - Vercel: https://analog-grandprix-2026.vercel.app/
 - ローカル: `python3 -m http.server 8080 --directory dist`
 
-## 今回のセッションで実施した内容（2026-03-31）
+## セッション履歴
+
+### セッション1（2026-03-31）
 1. Next.js版2025を静的HTMLに変換
 2. 2026ページをExcelデータ＋製品画像から新規作成
 3. 両ページの相互リンク（年度切替ナビ）
 4. 画像リサイズ・最適化（sips + Python PIL）
 5. GLightboxによる製品画像ライトボックス
 6. 各種デザイン修正（ロゴ差替え、フリンジ除去、フッター改修、レスポンシブ調整）
-7. Vercelテストデプロイ
+7. Vercelテストデプロイ（手動 `vercel deploy`）
+
+### セッション2（2026-03-31）
+1. リード文「審査・投票」→「投票・審査」に修正
+2. カテゴリーセクション: 6項目を正式名称に変更（白文字化、説明行削除）
+   - ターンテーブル／アナログプレーヤー、フォノカートリッジ、トーンアーム、フォノイコライザーアンプ／昇圧トランス、真空管アンプ、アナログアクセサリー
+3. 選考委員: 委員長別枠を廃止→4人統一グリッド（PC4列/モバイル2列）、角田氏写真トリミング、「審査委員長」ラベル追加
+4. Gold Awardサムネイル: 製品が切れる問題を`object-fit: contain` + ダーク背景（#161b2e）で解決。対象: DP-500BT, TD124DD, AT-VM760xSL, AT33xMLB, MC X40, MC-1, WE-709, C-57, EA-1500, HFSA-02, JUNONE 845SE
+5. Air Force IVジャンル「アナログプレーヤー」→「ターンテーブル」
+6. SEO強化: meta description充実、keywords、canonical URL、OGP/Twitter Card、JSON-LD構造化データ
+7. VercelにGitHub連携設定（ykgit1999/analog-grandprix-lp → 自動デプロイ有効化）
+8. Vercelビルド設定修正: Framework=Other, Output Directory=dist, Build Command=空
+
+## デプロイ
+- **Vercel**: https://analog-grandprix-2026.vercel.app/
+- **Git連携**: GitHub mainブランチへのpushで自動デプロイ
+- **ビルド設定**: Framework=Other, Output Directory=`dist`, Build Command=なし
+- **ローカル確認**: `python3 -m http.server 8080 --directory dist`
 
 ## 次にやること
-- [ ] ユーザー確認後、distフォルダをzip化してデスクトップに出力
+- [ ] ユーザー最終確認後、distフォルダをzip化してデスクトップに出力（納品用）
 - [ ] 追加のデザイン調整があれば対応
 - [ ] 最終納品
