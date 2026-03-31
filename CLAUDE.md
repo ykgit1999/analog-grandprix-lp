@@ -102,6 +102,10 @@ dist/
 7. VercelにGitHub連携設定（ykgit1999/analog-grandprix-lp → 自動デプロイ有効化）
 8. Vercelビルド設定修正: Framework=Other, Output Directory=dist, Build Command=空
 
+### セッション3（2026-03-31）
+1. カテゴリーセクションのSVGアイコン削除（テキストのみに簡素化）
+2. モバイル表示で途中から空になる問題の対策: data-revealに3秒フォールバックタイマー追加
+
 ## デプロイ
 - **Vercel**: https://analog-grandprix-2026.vercel.app/
 - **Git連携**: GitHub mainブランチへのpushで自動デプロイ
