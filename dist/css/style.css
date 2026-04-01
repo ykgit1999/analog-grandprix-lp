@@ -272,6 +272,11 @@ section { padding: 80px 0; }
 .product-card-maker { color: var(--gold-primary); font-size: 0.85rem; margin-bottom: 8px; }
 .product-card-price { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 4px; }
 .product-card-distributor { color: var(--text-muted); font-size: 0.75rem; }
+.product-card-desc {
+  color: var(--text-secondary); font-size: 0.8rem; line-height: 1.8;
+  margin-top: 12px; padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
 
 /* Multi-image thumbnails */
 .product-card-images { display: flex; gap: 4px; }
