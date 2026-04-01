@@ -378,8 +378,9 @@ section { padding: 80px 0; }
 }
 .timeline-year {
   font-family: 'Noto Serif JP', serif; font-size: 1.5rem;
-  color: var(--gold-primary); margin-bottom: 8px;
+  color: var(--gold-primary); margin-bottom: 4px;
 }
+.timeline-issue { color: var(--text-secondary); font-size: 0.75rem; margin-bottom: 8px; }
 .timeline-title { font-size: 1rem; margin-bottom: 8px; }
 .timeline-desc { color: var(--text-secondary); font-size: 0.85rem; }
 
