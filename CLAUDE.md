@@ -118,7 +118,12 @@ dist/
 - **ビルド設定**: Framework=Other, Output Directory=`dist`, Build Command=なし
 - **ローカル確認**: `python3 -m http.server 8080 --directory dist`
 
+### セッション5（2026-04-01）
+1. Gold Award全11製品に説明文（description）を追加: `product-card-desc`クラス新設、販売代理店の下にボーダー区切りで表示
+2. OPEN価格の表記統一（6箇所）: `¥OPEN（¥XX,XXX）` → `¥OPEN（想定売価XX,XXX円前後）`
+3. ジャンル名の文字色を明るく: `text-muted`(#6B7280) → `text-secondary`(#9CA3AF)
+4. 納品用zip作成: `~/Desktop/analog-grandprix-2026.zip`（.vercel/, .gitignore除外）
+
 ## 次にやること
-- [ ] ユーザー最終確認後、distフォルダをzip化してデスクトップに出力（納品用）
-- [ ] 追加のデザイン調整があれば対応
-- [ ] 最終納品
+- [ ] 追加の修正依頼があれば対応
+- [ ] 最終納品確認
